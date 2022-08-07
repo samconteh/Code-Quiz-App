@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+:p{
+    color: black;
+}
+
+button{
+    outline: none;
+    background-color:none;
+    color: black;
+    font-size: 1.3em;
+}
+
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.top-bar p{
+    float:right;
+}
+.inner-container{
+    background-color: black;
+    height: 100%;
+}

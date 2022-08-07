@@ -4,10 +4,13 @@
     box-sizing: border-box;
     border: 1px solid red;
 }
-:p{
+p{
     color: black;
 }
 
+body{
+    overflow: hidden;
+}
 button{
     outline: none;
     background-color:none;
@@ -29,4 +32,31 @@ button{
 .inner-container{
     background-color: black;
     height: 100%;
+    width: 50%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+.inner-container p{
+    color: aquamarine;
+}
+h1,h3{
+    color: white;
+    text-align: center;
+}
+.quiz-intro{
+    margin-bottom: 25vh;
+}
+.quiz-intro p{
+    text-align: center;
+
+}
+.quiz-intro button{
+    display: block;
+    width: 50%;
+    margin: 0% auto;
+    
+
 }
